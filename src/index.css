@@ -1,0 +1,130 @@
+.nlux-AiChat-root {
+  --nlux-chtr--ftSz: 14px;
+  --nlux-prmInp--ftFm: 14px;
+}
+.nlux-AiChat-root.nlux-theme-nova {
+  --nlux-PromptInput--FontSize: 14px;
+}
+.nlux-launchPad-container>.nlux-comp-welcomeMessage {
+  flex: 1;
+  padding: 0 26px 0 26px;
+  align-items: start;
+  width: auto;
+}
+.nlux-comp-welcomeMessage>.nlux-comp-welcomeMessage-personaName {
+  font-size: 26px;
+  background: linear-gradient(270deg, #ae79cc 3%, #1366ec 96%);
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.nlux-comp-welcomeMessage>.nlux-comp-welcomeMessage-text {
+  margin-top: 16px;
+  color: #666;
+}
+.nlux-conversationStarters-container>.nlux-comp-conversationStarters {
+  display: block;
+  padding: 0 26px 0 26px;
+  min-width: inherit;
+  width: inherit;
+}
+.nlux-conversationStarters-container>.nlux-comp-conversationStarters button.nlux-comp-conversationStarter {
+  height: auto;
+  width: auto;
+  margin-bottom: 12px;
+  border-radius: 0;
+  background: #f2f4ff;
+  font-size: 14px;
+  color: #666;
+}
+
+.nlux-AiChat-root>.nlux-chatRoom-container>.nlux-composer-container {
+  border-top: 1px solid #eee;
+}
+
+
+.nlux-comp-composer>textarea:placeholder {
+  color: #eee;
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout.nlux-comp-chatItem--sent>.nlux-comp-message {
+  border-radius: 0;
+  background: #e5effe;
+  color: #555;
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout.nlux-comp-chatItem--received>.nlux-comp-message {
+  border-radius: 0;
+  color: #555;
+  background-color: transparent;
+  
+  /* padding-top: 10px; */
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout {
+  align-items: flex-start;
+}
+
+.nlux-conversation-container img {
+  max-width: 100%;
+}
+
+.nlux-conversation-container th, .nlux-conversation-container td {
+  padding: 4px;
+  border: 1px solid #CCC;
+}
+
+.nlux-comp-chatItem {
+  /* display: flex; */
+  padding: 0;
+  padding-top: 10px;
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout.nlux-comp-chatItem--received .nlux-comp-chatItem-participantInfo {
+  margin-top: 0px;
+}
+
+.nlux-comp-chatItem-participantInfo {
+  width: 24px;
+  height: 24px;
+  margin-top: 7px;
+}
+
+.response-container {
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.nlux-comp-message {
+  padding: 0 !important;
+  border: none !important;
+  padding-left: 6px !important;
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout.nlux-comp-chatItem--sent>.nlux-comp-message {
+  border-radius: var(--Space-Padding-paddingXS, 8px);
+  background: #D9ECFF;
+  padding: 8px 16px !important;
+}
+
+.nlux-comp-chatItem.nlux-comp-chatItem--bubblesLayout.nlux-comp-chatItem--sent {
+  flex-direction: row;
+  padding-left: 0;
+}
+
+.icon-font-svg {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+  color: currentcolor;
+	/* fill: currentcolor;
+	overflow: hidden;
+  box-sizing: border-box; */
+}
+
+.nlux-comp-chatItem-participantInfo .nlux-comp-avatar .nlux-comp-avatarContainer .nlux-comp-avatarPicture {
+  background-color: transparent !important;
+}
